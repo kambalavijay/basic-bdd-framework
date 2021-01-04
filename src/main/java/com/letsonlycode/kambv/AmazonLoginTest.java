@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(JUnitPlatform.class)
-public class AmazonLoginTest /*extends BaseTest*/ {
+public class AmazonLoginTest {
 
     @Test
     public void loginTest(){
@@ -19,7 +19,6 @@ public class AmazonLoginTest /*extends BaseTest*/ {
         loginPageEvents.verifyLoginPageOpenedOrNot();
         loginPageEvents.enterEmailId();
 
-//        testStatus = true;
     }
 
 }

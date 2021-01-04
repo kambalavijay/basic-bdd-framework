@@ -1,6 +1,6 @@
 package com.letsonlycode.kambv;
 
-import cucumber.api.CucumberOptions;
+import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

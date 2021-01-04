@@ -3,18 +3,17 @@ package com.letsonlycode.kambv;
 import com.letsonlycode.kambv.pageEvents.HomePageEvents;
 import com.letsonlycode.kambv.pageEvents.LoginPageEvents;
 import com.letsonlycode.kambv.utils.Constants;
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.core.api.Scenario;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
-import java.util.Comparator;
 import java.util.concurrent.TimeUnit;
 
 public class AmazonLoginStepdefs{

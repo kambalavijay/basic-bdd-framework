@@ -1,0 +1,20 @@
+
+Q
+java:S2696P"6Make the enclosing method "static" or remove this set.(ÓÏÙ§øÿÿÿÿ
+F
+java:S1444"0Make this "public static testStatus" field final(£Óã
+o
+java:S1210i"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ø Ë¾
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹‡Øïüÿÿÿÿ
+Q
+java:S26969"6Make the enclosing method "static" or remove this set.(§ßìÜıÿÿÿÿ
+D
+java:S1444"/Make this "public static webDriver" field final(ùøŞN
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(¦Ïæ
+j
+java:S1104"UMake webDriver a static final constant or non-public and provide accessors if needed.(ùøŞN
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(Ëš‘š
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(àªõˆ
+l
+java:S1104"VMake testStatus a static final constant or non-public and provide accessors if needed.(£Óã

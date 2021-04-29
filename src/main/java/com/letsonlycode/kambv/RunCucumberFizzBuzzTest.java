@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"classpath:features/FizzBuzz.feature"},
-        glue = {"com.letsonlycode.kambv"})
+        glue = {"com.letsonlycode.kambv.fizzbuzzstepdefs"})
 public class RunCucumberFizzBuzzTest {
 
 }

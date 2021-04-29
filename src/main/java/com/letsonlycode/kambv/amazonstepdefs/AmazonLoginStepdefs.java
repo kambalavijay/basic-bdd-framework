@@ -1,4 +1,4 @@
-package com.letsonlycode.kambv;
+package com.letsonlycode.kambv.amazonstepdefs;
 
 import com.letsonlycode.kambv.pageEvents.HomePageEvents;
 import com.letsonlycode.kambv.pageEvents.LoginPageEvents;
@@ -9,7 +9,8 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -82,38 +83,3 @@ public class AmazonLoginStepdefs{
 }
 
 
-class Student implements Comparable<Student>{
-    private int id;
-    private String fname;
-    private double cgpa;
-    public Student(int id, String fname, double cgpa) {
-        super();
-        this.id = id;
-        this.fname = fname;
-        this.cgpa = cgpa;
-    }
-    public int getId() {
-        return id;
-    }
-    public String getFname() {
-        return fname;
-    }
-    public double getCgpa() {
-        return cgpa;
-    }
-
-    public int compareTo(Student student){
-        Student student0 = this;
-        if(student0.cgpa == student.cgpa){
-            if(student0.fname.equals(student.fname)){
-                return student0.id - student.id;
-            }
-            else{
-                return student0.fname.compareTo(student.fname);
-            }
-        }
-        else{
-            return Double.compare(student.cgpa, student0.cgpa);
-        }
-    }
-}

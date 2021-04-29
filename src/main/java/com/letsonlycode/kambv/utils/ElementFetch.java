@@ -1,6 +1,6 @@
 package com.letsonlycode.kambv.utils;
 
-import com.letsonlycode.kambv.AmazonLoginStepdefs;
+import com.letsonlycode.kambv.amazonstepdefs.AmazonLoginStepdefs;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

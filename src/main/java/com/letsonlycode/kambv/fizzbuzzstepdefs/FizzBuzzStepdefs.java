@@ -2,6 +2,8 @@ package com.letsonlycode.kambv.fizzbuzzstepdefs;
 
 
 import com.letsonlycode.kambv.FizzBuzz;
+
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,11 +27,6 @@ public class FizzBuzzStepdefs {
     @When("^I play with number (\\d+)$")
     public void iPlayWithNumber(int num) {
         result = fizzBuzz.play(num);
-    }
-
-    @Then("^The result is Fizz$")
-    public void theResultIsFizz() {
-
     }
 
     @Then("^The result is \"([^\"]*)\"$")
